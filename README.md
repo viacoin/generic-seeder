@@ -52,7 +52,7 @@ sudo apt-get install git build-essential libboost-all-dev libssl-dev libcurl4-op
 ### Step 2 - Download Source Code
 
 ```
-git clone https://github.com/team-exor/generic-seeder.git
+git clone https://github.com/viacoin/generic-seeder.git
 ```
 
 ### Step 3 - Navigate to Source Directory
@@ -69,7 +69,7 @@ cp ./settings.conf.template ./settings.conf
 
 *Make required changes in settings.conf*
 
-**NOTE:** Example setting files for the bitcoin, dogecoin and exor networks are also provided. Copy or rename `settings.conf.bitcoin`, `settings.conf.dogecoin` or `settings.conf.exor` to `settings.conf` and test crawling any of these networks with working examples to better understand how to set up the config for your own network.
+**NOTE:** Example setting files for the viacoin, bitcoin, dogecoin and exor networks are also provided. Copy or rename `settings.conf.bitcoin`, `settings.conf.dogecoin` or `settings.conf.exor` to `settings.conf` and test crawling any of these networks with working examples to better understand how to set up the config for your own network.
 
 ### Step 5 - Build from Source
 
